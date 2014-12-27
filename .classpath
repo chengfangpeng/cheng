@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/android-support-v4.jar"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry exported="true" kind="lib" path="libs/android-support-v4.jar"/>
-	<classpathentry exported="true" kind="lib" path="libs/gson-2.2.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="libs/volley.jar"/>
-	<classpathentry kind="lib" path="libs/baseproject.jar"/>
-	<classpathentry kind="lib" path="libs/CocoUnion_AD_SDK_Android_v4.1.2.jar"/>
-	<classpathentry kind="lib" path="libs/comscore.jar"/>
-	<classpathentry kind="lib" path="libs/domob_android_sdk.jar"/>
-	<classpathentry kind="lib" path="libs/fastjson-1.1.24.jar"/>
-	<classpathentry kind="lib" path="libs/InMobi-4.0.4.jar"/>
-	<classpathentry kind="lib" path="libs/mAppTracker.jar"/>
-	<classpathentry kind="lib" path="libs/mobisageSDK.jar"/>
-	<classpathentry kind="lib" path="libs/playerBase.jar"/>
-	<classpathentry kind="lib" path="libs/tracking.jar"/>
-	<classpathentry kind="lib" path="libs/xadsdk.jar"/>
-	<classpathentry kind="lib" path="libs/YoukuAnalytics.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

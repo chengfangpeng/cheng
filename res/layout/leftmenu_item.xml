@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/leftmenu_listview_normal"
+    android:gravity="center_vertical"
+     android:layout_margin="20dp"
+    >
+    <View 
+        android:id="@+id/leftmenu_item_view"
+        android:layout_height="match_parent"
+        android:layout_width="16dp"
+        
+        />
+
+
+    <TextView
+        android:id="@+id/leftmenu_item_title_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/leftmenu_item_view"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" 
+        android:text="我爱你"
+        />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:scaleType="center"
+        android:src="@drawable/leftmenu_arrow"
+        
+        />
+
+</RelativeLayout>

@@ -16,6 +16,9 @@
    <color name="black_a">#424242</color>
    <color name="snow">#FFFAFA</color>
     <color name="main_foot_item_presses_bg">#848484</color>
+     <color name="leftmenu_listview_normal">#11f7f7f7</color>
+      <color name="main_header_blue">#4799d3</color>
+    <color name="main_header_white">#FFFFFF</color>
     
     
 

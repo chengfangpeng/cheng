@@ -44,7 +44,7 @@
     
 
     <application
-        android:name="com.zhensan.client.service.MobileApplication"
+        android:name=".service.MobileApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -64,6 +64,12 @@
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
+        <activity 
+            android:name="com.zhensan.client.option.player.PlayerActivity"
+             android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            
+            ></activity>
            <!-- client_id配置 -->
         <meta-data android:name="client_id" android:value="79e4f5b64c881b20"/>
         

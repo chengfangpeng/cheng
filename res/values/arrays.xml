@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array 
+        name="leftmenu_title_list"
+        >
+        <item>天云首页</item>
+        <item>天梯2300高端局</item>
+        <item>百大经典战役</item>
+        <item>第一视角</item>
+        <item>最新比赛</item>
+        <item>每周精彩镜头</item>
+        <item>dota2版真三</item>
+        <item>精彩镜头TOP5</item>
+        <item>谁的操作更诡异</item>
+        <item>真三小技巧</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/leftmenu_userinfo_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/leftmenu_avatar_bg" >
+
+        <RelativeLayout 
+            	android:id="@+id/leftmenu_user_login_layout"
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            
+            >
+             <ImageView
+            android:id="@+id/leftmenu_usericon_imageview"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/leftmenu_personal_icon" />
+
+        <TextView
+            android:id="@+id/leftmenu_username_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/leftmenu_usericon_imageview"
+            android:gravity="center"
+            android:text="@string/leftmenu_login"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+            
+        </RelativeLayout>
+       
+        <LinearLayout 
+            android:id="@+id/leftmenu_usermenu_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@id/leftmenu_user_login_layout"
+             android:padding="5dp" 
+            >
+            <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+           >
+
+            <ImageView
+                android:id="@+id/leftmenu_collection_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/leftmenu_collect" />
+
+            <TextView
+               android:layout_marginLeft="10dp"
+                android:id="@+id/leftmenu_collection_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:gravity="center"
+                android:layout_toRightOf="@id/leftmenu_collection_pic"
+                android:text="收藏"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+         <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+           >
+
+            <ImageView
+                android:id="@+id/leftmenu_message_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/leftmenu_message" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+               
+                android:id="@+id/leftmenu_message_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:gravity="center"
+                android:layout_toRightOf="@id/leftmenu_message_pic"
+                android:text="消息"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+         <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+           >
+
+            <ImageView
+                android:id="@+id/leftmenu_setting_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/leftmenu_setting" />
+
+            <TextView
+               android:layout_marginLeft="10dp"
+               
+                android:id="@+id/leftmenu_setting_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               	android:gravity="center"
+                android:layout_toRightOf="@id/leftmenu_setting_pic"
+                android:text="设置"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+            
+        </LinearLayout>
+
+        
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/leftmenu_ListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/transparent"
+        android:dividerHeight="20dp"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp"
+        android:scrollbars="none" />
+
+</LinearLayout>

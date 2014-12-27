@@ -4,5 +4,6 @@
     <string name="app_name">天云解说</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="leftmenu_login">请登录</string>
 
 </resources>

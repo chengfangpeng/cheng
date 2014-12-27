@@ -1,6 +1,8 @@
 package com.zhensan.client.service;
 
+
 import com.youku.player.YoukuPlayerApplication;
+import com.zhensan.client.util.CacheUtils;
 
 
 public class MobileApplication extends YoukuPlayerApplication{
@@ -10,14 +12,16 @@ public class MobileApplication extends YoukuPlayerApplication{
 	
 	
 	public static String TAG = "ZhenSan";
-	
+	public static CacheUtils cacheUtils;
 	
 	@Override
 	public void onCreate() {
 		super.onCreate();
 		mobileApplication = this;
+		cacheUtils = CacheUtils.get(this);
 	}
-		
+
+
 
 	
 	
